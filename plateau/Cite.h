@@ -6,7 +6,7 @@
 class Cite {
 private:
     int chaine_habitation;
-    std::vector<Hexagone> carte; /*a revoir le vecteur*/
+    std::vector<Hexagone> carte;
     Tuile* tuile_temporaire;
     Coordonnee position_temporaire; 
 
@@ -16,6 +16,6 @@ public:
     void maj_cite(Tuile* tuile, Coordonnee& c);
     void set_tuile_temporaire(Tuile* t);
     void set_position_temporaire(Coordonnee& t);
-    const std::vector<Construction&> get_voisins(Coordonnee& c); /*a revoir le vecteur*/
+    const std::vector<Construction&> get_voisins(Coordonnee& c); 
         
 };
