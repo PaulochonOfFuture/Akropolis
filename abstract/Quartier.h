@@ -1,15 +1,15 @@
 #pragma once
 #include "Construction.h"
-
-using namespace std;
+#include <vector>
 
 class Quartier : public Construction {
+protected:
 	bool valide;
+	virtual bool est_valide(std::vector<Construction&>) = 0;
+	std::string get_type_construction() const; /*erreur sur cette ligne*/
 public:
-	bool est_valide(vector<Construction&>);
-	string get_type_construction();
-	Quartier(int, valide);
-	Quartier(const Quartier&);
-	Quartier& operator+(const Quartier&);
+	Quartier(int i, bool v);
+	Quartier(const Quartier& q);
+	Quartier& operator+(const Quartier& q);
 
 };

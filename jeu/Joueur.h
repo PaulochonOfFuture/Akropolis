@@ -1,5 +1,5 @@
 #pragma once
-#include "Cite.h"
+#include "../plateau/Cite.h"
 #include <string>
 
 class Joueur {
@@ -17,8 +17,8 @@ public:
     int get_nb_pierres();
     void set_score(int);
     int get_score();
-    Tuile* choisir_tuile(int); /*faut pas un include tuile?*/
-    void placer_tuiles_temporairement(Coordonée, Coordonée, Coordonée, Tuile*); /*et coordoné*/
+    Tuile* choisir_tuile(int rang);
+    void placer_tuiles_temporairement(Coordonnee c1, Coordonnee c2, Coordonnee c3, Tuile* t);
     void tourner_tuile_temporaire();
     void confirmer_emplacement();
 };

@@ -1,8 +1,8 @@
 #pragma once
 #include <vector>
 #include "Joueur.h"
-#include "Coordonnee.h"
-#include "Chantier.h"
+#include "../plateau/Coordonnee.h"
+#include "../plateau/Chantier.h"
 
 class Partie {
 private:
