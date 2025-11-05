@@ -158,14 +158,6 @@
     <ClInclude Include="..\plateau\Coordonnee.h" />
     <ClInclude Include="..\plateau\Habitation.h" />
     <ClInclude Include="..\plateau\Hexagone.h" />
-<<<<<<< HEAD
-    <ClInclude Include="..\plateau\Jardin.h" />
-    <ClInclude Include="..\plateau\Marche.h" />
-    <ClInclude Include="..\plateau\Place.h" />
-    <ClInclude Include="..\plateau\Temple.h" />
-    <ClInclude Include="..\plateau\Tuile.h" />
-=======
->>>>>>> origin/gaspar_oliveira
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
