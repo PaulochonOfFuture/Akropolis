@@ -1,11 +1,11 @@
 #pragma once
 #include "Construction.h"
-#include <cstring>
-using namespace std;
+#include <string>
 
-class Carriere : public Construction {
+
+class Carriere : public Construction  {
 public:
-	stirng get_type_construction();
+	std::string get_type_construction();
 	void override() { const };
 	Carriere(int);
 	Carriere(const Carriere&);

@@ -1,6 +1,6 @@
 #pragma once
 #include "Construction.h"
-#include <cstring>
+
 using namespace std;
 
 class Quartier : public Construction {
