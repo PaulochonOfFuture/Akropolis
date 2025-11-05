@@ -123,7 +123,46 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\abstract\Construction.cpp" />
+    <ClCompile Include="..\abstract\Quartier.cpp" />
+    <ClCompile Include="..\exceptions\Recouvrir.cpp" />
+    <ClCompile Include="..\jeu\Joueur.cpp" />
+    <ClCompile Include="..\jeu\Partie.cpp" />
+    <ClCompile Include="..\plateau\Carriere.cpp" />
+    <ClCompile Include="..\plateau\Caserne.cpp" />
+    <ClCompile Include="..\plateau\ChaineHabitation.cpp" />
+    <ClCompile Include="..\plateau\Chantier.cpp" />
+    <ClCompile Include="..\plateau\Cite.cpp" />
+    <ClCompile Include="..\plateau\Coordonnee.cpp" />
+    <ClCompile Include="..\plateau\Habitation.cpp" />
+    <ClCompile Include="..\plateau\Hexagone.cpp" />
+    <ClCompile Include="..\plateau\Jardin.cpp" />
+    <ClCompile Include="..\plateau\Marche.cpp" />
+    <ClCompile Include="..\plateau\Place.cpp" />
+    <ClCompile Include="..\plateau\Temple.cpp" />
+    <ClCompile Include="..\plateau\Tuile.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="akropolis.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\abstract\Construction.h" />
+    <ClInclude Include="..\abstract\Quartier.h" />
+    <ClInclude Include="..\exceptions\Recouvrir.h" />
+    <ClInclude Include="..\jeu\Joueur.h" />
+    <ClInclude Include="..\jeu\Partie.h" />
+    <ClInclude Include="..\plateau\Carriere.h" />
+    <ClInclude Include="..\plateau\Caserne.h" />
+    <ClInclude Include="..\plateau\ChaineHabitation.h" />
+    <ClInclude Include="..\plateau\Chantier.h" />
+    <ClInclude Include="..\plateau\Cite.h" />
+    <ClInclude Include="..\plateau\Coordonnee.h" />
+    <ClInclude Include="..\plateau\Habitation.h" />
+    <ClInclude Include="..\plateau\Hexagone.h" />
+    <ClInclude Include="..\plateau\Jardin.h" />
+    <ClInclude Include="..\plateau\Marche.h" />
+    <ClInclude Include="..\plateau\Place.h" />
+    <ClInclude Include="..\plateau\Temple.h" />
+    <ClInclude Include="..\plateau\Tuile.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
