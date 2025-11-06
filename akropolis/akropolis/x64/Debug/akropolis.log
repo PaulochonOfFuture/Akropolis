@@ -1,0 +1,296 @@
+﻿  Construction.cpp
+  Quartier.cpp
+  Recouvrir.cpp
+  Joueur.cpp
+  Partie.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string(23,1):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,13): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,45): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,10): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string(23,1):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,10): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,44): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Tuile.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Construction.h' : No such file or directory
+  (compiler le fichier source '../jeu/Joueur.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Tuile.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Construction.h' : No such file or directory
+  (compiler le fichier source '../jeu/Partie.cpp')
+  
+  Carriere.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Carriere.h(12,12): error C2533: 'Carriere::Carriere' : type de retour non autorisé pour les constructeurs
+  (compiler le fichier source '../plateau/Carriere.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Carriere.h(8,14): error C2555: 'Carriere::get_type_construction' : le type de retour de la fonction virtuelle de substitution diffère de 'Construction::get_type_construction' et n'est pas covariant
+  (compiler le fichier source '../plateau/Carriere.cpp')
+      C:\Users\chtio\Documents\akropolis\abstract\Construction.h(7,28):
+      voir la déclaration de 'Construction::get_type_construction'
+  
+  Caserne.cpp
+  ChaineHabitation.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(938,19): error C2338: static_assert failed: 'The C++ Standard forbids allocators for reference elements because of [allocator.requirements].'
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(938,19):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Users\chtio\Documents\akropolis\plateau\ChaineHabitation.h(6,30):
+          voir la référence à l'instanciation classe modèle 'std::vector<Habitation &,std::allocator<Habitation &>>' en cours de compilation
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(448,26):
+          voir la référence à l'instanciation alias modèle 'std::_Rebind_alloc_t<_Alloc,_Ty>' en cours de compilation
+          with
+          [
+              _Alloc=std::allocator<Habitation &>,
+              _Ty=Habitation &
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(778,69):
+          voir la référence à l'instanciation classe modèle 'std::allocator_traits<_Alloc>' en cours de compilation
+          with
+          [
+              _Alloc=std::allocator<Habitation &>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(755,27):
+          voir la référence à l'instanciation classe modèle 'std::_Default_allocator_traits<_Alloc>' en cours de compilation
+          with
+          [
+              _Alloc=std::allocator<Habitation &>
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(657,45):
+          voir la référence à l'instanciation classe modèle 'std::allocator<Habitation &>' en cours de compilation
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(946,69): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(947,75): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(965,60): error C2528: « address » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(969,66): error C2528: « address » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(982,45): error C2528: « _Ptr » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(988,70): error C2528: « allocate » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(1002,10): error C2528: « allocate » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(659,42): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(660,48): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(679,1): error C2528: « <template-parameter> » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(693,1): error C2528: « <template-parameter> » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(454,19): error C2338: static_assert failed: 'The C++ Standard forbids containers of non-object types because of [container.requirements].'
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(791,89): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(791,89):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(607,50):
+          voir les informations de référence sur le modèle de variable 'const bool _Is_simple_alloc_v<std::allocator<Habitation &> >' en cours de compilation
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(788,1): error C2528: « <template-parameter> » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(792,101): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(608,67): error C2528: « <template-parameter> » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23): error C2535: 'void std::vector<Habitation &,std::allocator<Habitation &>>::push_back(_Ty)' : fonction membre déjà définie ou déclarée
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23): error C2535:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23): error C2535:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23): error C2535:             _Ty=Habitation &
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(936,23): error C2535:         ]
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(932,23):
+      voir la déclaration de 'std::vector<Habitation &,std::allocator<Habitation &>>::push_back'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1063,27): error C2535: 'std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>> std::vector<_Ty,std::allocator<_Ty>>::insert(std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,_Ty)' : fonction membre déjà définie ou déclarée
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1063,27): error C2535:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1063,27): error C2535:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1063,27): error C2535:             _Ty=Habitation &
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1063,27): error C2535:         ]
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1059,27):
+      voir la déclaration de 'std::vector<Habitation &,std::allocator<Habitation &>>::insert'
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1832,34): error C2528: « data » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1836,40): error C2528: « data » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1892,34): error C2528: « _Unchecked_begin » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1896,40): error C2528: « _Unchecked_begin » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1900,34): error C2528: « _Unchecked_end » : vous ne pouvez pas créer de pointeur vers une référence
+  Chantier.cpp
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(1904,40): error C2528: « _Unchecked_end » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(800,39): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(800,39):
+      le contexte d’instanciation du modèle (le plus ancien) est
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(2244,41):
+          voir la référence à l'instanciation classe modèle 'std::_Compressed_pair<std::allocator<Habitation &>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' en cours de compilation
+          with
+          [
+              _Ty=Habitation &
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(1524,10):
+          voir la référence à l'instanciation classe modèle 'std::_Vector_val<std::_Simple_types<_Ty>>' en cours de compilation
+          with
+          [
+              _Ty=Habitation &
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\vector(392,50):
+          voir la référence à l'instanciation classe modèle 'std::_Simple_types<_Ty>' en cours de compilation
+          with
+          [
+              _Ty=Habitation &
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xmemory(801,45): error C2528: « abstract declarator » : vous ne pouvez pas créer de pointeur vers une référence
+  (compiler le fichier source '../plateau/ChaineHabitation.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Tuile.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Construction.h' : No such file or directory
+  (compiler le fichier source '../plateau/Chantier.cpp')
+  
+  Cite.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../plateau/Cite.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string(23,1):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,13): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,45): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,10): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../plateau/Cite.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string(23,1):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,10): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,44): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Tuile.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Construction.h' : No such file or directory
+  (compiler le fichier source '../plateau/Cite.cpp')
+  
+  Coordonnee.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../plateau/Coordonnee.cpp')
+      C:\Users\chtio\Documents\akropolis\akropolis\predefined C++ types (compiler internal)(357,11):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,13): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../plateau/Coordonnee.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../plateau/Coordonnee.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,45): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../plateau/Coordonnee.cpp')
+  
+  Habitation.cpp
+  Hexagone.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string(23,1):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,13): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,7): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Coordonnee.h(8,45): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,10): error C2039: 'vector' n'est pas membre de 'std'
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\string(23,1):
+      voir la déclaration de 'std'
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,16): error C2143: erreur de syntaxe : absence de ';' avant '<'
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,10): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+  
+C:\Users\chtio\Documents\akropolis\plateau\Hexagone.h(12,44): error C2238: jetons inattendus avant ';'
+  (compiler le fichier source '../plateau/Hexagone.cpp')
+  
+  Jardin.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Jardin.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Quartier.h' : No such file or directory
+  (compiler le fichier source '../plateau/Jardin.cpp')
+  
+  Marche.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Marche.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Quartier.h' : No such file or directory
+  (compiler le fichier source '../plateau/Marche.cpp')
+  
+  Place.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Place.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Construction.h' : No such file or directory
+  (compiler le fichier source '../plateau/Place.cpp')
+  
+  Temple.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Temple.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Quartier.h' : No such file or directory
+  (compiler le fichier source '../plateau/Temple.cpp')
+  
+  Tuile.cpp
+C:\Users\chtio\Documents\akropolis\plateau\Tuile.h(2,10): error C1083: Impossible d'ouvrir le fichier include : 'Construction.h' : No such file or directory
+  (compiler le fichier source '../plateau/Tuile.cpp')
+  
+  main.cpp
+  akropolis.cpp
+  Génération de code en cours...

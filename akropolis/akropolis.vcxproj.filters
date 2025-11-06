@@ -1,143 +1,48 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Fichiers sources">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Fichiers d%27en-tête">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Fichiers de ressources">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
+    <ClCompile Include="..\abstract\Construction.cpp" />
+    <ClCompile Include="..\abstract\Quartier.cpp" />
+    <ClCompile Include="..\exceptions\Recouvrir.cpp" />
+    <ClCompile Include="..\jeu\Joueur.cpp" />
+    <ClCompile Include="..\jeu\Partie.cpp" />
+    <ClCompile Include="..\plateau\Carriere.cpp" />
+    <ClCompile Include="..\plateau\Caserne.cpp" />
+    <ClCompile Include="..\plateau\ChaineHabitation.cpp" />
+    <ClCompile Include="..\plateau\Chantier.cpp" />
+    <ClCompile Include="..\plateau\Cite.cpp" />
+    <ClCompile Include="..\plateau\Coordonnee.cpp" />
+    <ClCompile Include="..\plateau\Habitation.cpp" />
+    <ClCompile Include="..\plateau\Hexagone.cpp" />
+    <ClCompile Include="..\plateau\Jardin.cpp" />
+    <ClCompile Include="..\plateau\Marche.cpp" />
+    <ClCompile Include="..\plateau\Place.cpp" />
+    <ClCompile Include="..\plateau\Temple.cpp" />
+    <ClCompile Include="..\plateau\Tuile.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="akropolis.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="akropolis.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="..\src\main.cpp">
-=======
-    <ClCompile Include="..\abstract\Construction.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\abstract\Quartier.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\exceptions\Recouvrir.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\jeu\Joueur.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\jeu\Partie.cpp">
->>>>>>> origin/gaspar_oliveira
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Carriere.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Caserne.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\ChaineHabitation.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Chantier.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Cite.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Coordonnee.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Habitation.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Hexagone.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Jardin.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Marche.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Place.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Temple.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\plateau\Tuile.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-<<<<<<< HEAD
-    <ClCompile Include="..\jeu\Joueur.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\jeu\Partie.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\exceptions\Recouvrir.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\abstract\Construction.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="..\abstract\Quartier.cpp">
-=======
-    <ClCompile Include="..\src\main.cpp">
->>>>>>> origin/gaspar_oliveira
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
+    <ClInclude Include="..\abstract\Construction.h" />
+    <ClInclude Include="..\abstract\Quartier.h" />
+    <ClInclude Include="..\exceptions\Recouvrir.h" />
+    <ClInclude Include="..\jeu\Joueur.h" />
+    <ClInclude Include="..\jeu\Partie.h" />
+    <ClInclude Include="..\plateau\Carriere.h" />
+    <ClInclude Include="..\plateau\Caserne.h" />
+    <ClInclude Include="..\plateau\ChaineHabitation.h" />
+    <ClInclude Include="..\plateau\Chantier.h" />
+    <ClInclude Include="..\plateau\Cite.h" />
+    <ClInclude Include="..\plateau\Coordonnee.h" />
+    <ClInclude Include="..\plateau\Habitation.h" />
+    <ClInclude Include="..\plateau\Hexagone.h" />
+    <ClInclude Include="..\plateau\Jardin.h" />
+    <ClInclude Include="..\plateau\Marche.h" />
+    <ClInclude Include="..\plateau\Place.h" />
+    <ClInclude Include="..\plateau\Temple.h" />
+    <ClInclude Include="..\plateau\Tuile.h" />
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <ClInclude Include="..\abstract\Construction.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\abstract\Quartier.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\exceptions\Recouvrir.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\jeu\Joueur.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\jeu\Partie.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
->>>>>>> origin/gaspar_oliveira
-    <ClInclude Include="..\plateau\Carriere.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\Caserne.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\ChaineHabitation.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\Chantier.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\Cite.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\Coordonnee.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\Habitation.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
-    <ClInclude Include="..\plateau\Hexagone.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
+    <None Include="akropolis.layout" />
   </ItemGroup>
 </Project>
