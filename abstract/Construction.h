@@ -2,14 +2,14 @@
 #include <string>
 
 class Construction {
-private:
+protected:
 	int id_tuile_mère;
+	virtual const std::string get_type_construction() = 0;
 public:
 	const int get_id_mere();
-	const std::string get_type_construction();
-	Construction(int);
-	Construction(const Construction&);
-	Construction& operator=(const Construction&);
+	Construction(int id);
+	Construction(const Construction& c);
+	Construction& operator=(const Construction& c);
 	virtual ~Construction() = default;
 
 

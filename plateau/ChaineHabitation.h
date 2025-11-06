@@ -7,8 +7,8 @@ private:
     int id_chaine;
     int longueur;
 public:
-    Chaine_habitation& opereator+=(Chaine_habitation&);
-    Chaine_habitation& opereator+=(Habitation&);
-    bool opereator>(Chaine_habitation&);
-    Chaine_habitation(int, int);
+    Chaine_habitation& operator+=(Chaine_habitation& c);
+    Chaine_habitation& operator+=(Habitation& h);
+    bool operator>(Chaine_habitation& c);
+    Chaine_habitation(int id, int l);
 };
