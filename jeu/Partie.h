@@ -8,14 +8,13 @@ class Partie {
 private:
     int nb_joueurs;
     bool courante;
-    bool variantes;
+    bool variantes[5];
     Joueur* joueurs;   
     Coordonnee* coordonnees;
     Chantier* chantiers;
 public:
     bool setCourante();
     int getNbJoueurs() const;
-    void initialiser_partie();
-    void determiner_classement();
-    void fin_chantier();
+    std::vector<Joueur&> determiner_classement();
+    Partie(int j, bool c, bool[5], std::vector<std::string> noms);
 };

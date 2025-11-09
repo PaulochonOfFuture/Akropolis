@@ -1,6 +1,7 @@
 #pragma once
 #include "Hexagone.h"
 #include "Tuile.h"
+#include "Coordonnee.h"
 #include <vector>
 
 class Cite {
@@ -16,6 +17,6 @@ public:
     void maj_cite(Tuile* tuile, Coordonnee& c);
     void set_tuile_temporaire(Tuile* t);
     void set_position_temporaire(Coordonnee& t);
-    const std::vector<Construction&> get_voisins(Coordonnee& c); 
+    const std::vector<Hexagone&> get_voisins(Coordonnee& c); 
         
 };
