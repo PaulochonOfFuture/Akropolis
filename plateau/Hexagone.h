@@ -9,7 +9,7 @@ private:
     int étage;
     bool est_vide;
  public:
-     Hexagone(Coordonee& c);
+     Hexagone();
      ~Hexagone();
      void afficher_hexagone();
 

@@ -4,7 +4,7 @@
 class Construction {
 protected:
 	int id_tuile_mère;
-	virtual const std::string get_type_construction() = 0;
+	virtual std::string get_type_construction() const = 0;
 public:
 	const int get_id_mere();
 	Construction(int id);

@@ -1,5 +1,5 @@
 #pragma once
-#include "Construction.h"
+#include "../abstract/Construction.h"
 
 class Place : public Construction {
 };

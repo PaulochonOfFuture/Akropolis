@@ -1,5 +1,5 @@
 #pragma once
-#include "Quartier.h"
+#include "../abstract/Quartier.h"
 #include <vector>
 
 class Jardin : public Quartier {
@@ -9,7 +9,7 @@ public:
 
     Jardin& operator=(const Jardin& q);
 
-    bool est_valide(std::vector<Construction*>& voisins);
-    bool lac(std::vector<Construction*>& voisins);
+    bool est_valide(std::vector<Construction&> voisins);
+    bool lac(std::vector<Construction&> voisins);
 
 };

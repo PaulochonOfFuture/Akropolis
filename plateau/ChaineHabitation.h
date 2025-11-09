@@ -1,9 +1,10 @@
 #pragma once
+#include <vector>
 #include "Habitation.h"
 
 class Chaine_habitation {
 private:
-    std::vector<Habitation&> habitations; 
+    std::vector<Habitation*> habitations; 
     int id_chaine;
     int longueur;
 public:

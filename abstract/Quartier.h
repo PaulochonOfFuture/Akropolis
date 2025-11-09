@@ -5,8 +5,8 @@
 class Quartier : public Construction {
 protected:
 	bool valide;
-	virtual bool est_valide(std::vector<Construction&>) = 0;
-	std::string get_type_construction() const; /*erreur sur cette ligne*/
+	virtual bool est_valide(std::vector<Construction>&) = 0;
+	std::string get_type_construction() const; 
 public:
 	Quartier(int i, bool v);
 	Quartier(const Quartier& q);

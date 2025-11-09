@@ -1,7 +1,7 @@
 #pragma once
-#include "Construction.h"
+#include "../abstract/Construction.h"
 
 class Tuile {
 private:
-    Construction construction;
+    Construction* construction;
 };

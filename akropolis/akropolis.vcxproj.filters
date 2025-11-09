@@ -19,7 +19,6 @@
     <ClCompile Include="..\plateau\Place.cpp" />
     <ClCompile Include="..\plateau\Temple.cpp" />
     <ClCompile Include="..\plateau\Tuile.cpp" />
-    <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="akropolis.cpp" />
   </ItemGroup>
   <ItemGroup>
