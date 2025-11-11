@@ -1,1 +1,31 @@
-﻿  akropolis.vcxproj -> C:\Users\PC\Akropolis\akropolis\x64\Debug\akropolis.exe
+﻿  Construction.cpp
+  Quartier.cpp
+  Recouvrir.cpp
+  Joueur.cpp
+  Partie.cpp
+  Carriere.cpp
+  Caserne.cpp
+  ChaineHabitation.cpp
+  Chantier.cpp
+  Cite.cpp
+  Coordonnee.cpp
+  Habitation.cpp
+  Hexagone.cpp
+C:\Users\PC\Akropolis\plateau\Habitation.cpp(5,41): error C2059: erreur de syntaxe : ';'
+  Jardin.cpp
+C:\Users\PC\Akropolis\plateau\Jardin.cpp(15,14): error C2511: 'bool Jardin::est_valide(std::vector<Construction,std::allocator<Construction>> &)' : impossible de trouver la fonction membre surchargée dans 'Jardin'
+      C:\Users\PC\Akropolis\plateau\Jardin.h(5,7):
+      voir la déclaration de 'Jardin'
+  
+  Marche.cpp
+C:\Users\PC\Akropolis\plateau\Marche.cpp(17,20): error C2248: 'Construction::get_type_construction' : impossible d'accéder à protected membre déclaré(e) dans la classe 'Construction'
+      C:\Users\PC\Akropolis\abstract\Construction.h(7,22):
+      voir la déclaration de 'Construction::get_type_construction'
+      C:\Users\PC\Akropolis\abstract\Construction.h(4,7):
+      voir la déclaration de 'Construction'
+  
+  Place.cpp
+  Temple.cpp
+  Tuile.cpp
+  akropolis.cpp
+  Génération de code en cours...
