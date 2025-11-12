@@ -1,9 +1,15 @@
 #include "Habitation.h"
 #include <vector>
 
+
 Habitation::Habitation(int id, bool v) : Quartier(id, v) {
     this->id_chaine_mere = 0 ;
 }
+
+Habitation::Habitation(int id, bool v) : Quartier(id, v) {
+    this->id_chaine_mere = /* ? ? ? ?*/ ;
+}
+
 
 Habitation::Habitation(const Habitation& q) : Quartier(q) {
     this->id_chaine_mere = q.id_chaine_mere;

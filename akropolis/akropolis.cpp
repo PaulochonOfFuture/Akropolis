@@ -2,9 +2,11 @@
 //
 
 #include <iostream>
+#include "../plateau/Carriere.h"
 
 int main()
 {
+    Carriere c = Carriere(3);
     std::cout << "Hello World!\n";
 }
 
