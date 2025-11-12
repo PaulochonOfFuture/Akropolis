@@ -2,7 +2,7 @@
 #include <vector>
 
 Habitation::Habitation(int id, bool v) : Quartier(id, v) {
-    this->id_chaine_mere = /* ? ? ? ?*/ ;
+    this->id_chaine_mere = 0 ;
 }
 
 Habitation::Habitation(const Habitation& q) : Quartier(q) {
