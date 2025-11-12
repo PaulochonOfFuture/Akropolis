@@ -12,7 +12,7 @@ Jardin& Jardin::operator=(const Jardin& q) {
     return *this;
 }
 
-bool Jardin::est_valide(std::vector<Construction>& voisins) {
+bool Jardin::est_valide(std::vector<Construction*>& voisins) {
     return true;
 }
 
