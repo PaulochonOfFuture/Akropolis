@@ -12,7 +12,7 @@ Temple& Temple::operator=(const Temple& q) {
     return *this;
 }
 
-bool Temple::est_valide(std::vector<Construction>& voisins) {
+bool Temple::est_valide(std::vector<Construction*>& voisins) {
     if (voisins.size() < 6) {
         return false;
     }

@@ -12,9 +12,9 @@ Marche& Marche::operator=(const Marche& q) {
     return *this;
 }
 
-bool Marche::est_valide(std::vector<Construction>& voisins) {
+bool Marche::est_valide(std::vector<Construction*>& voisins) {
     for (Construction& voisin : voisins) {
-        if (voisin.get_type_construction() == "Marche") {
+        if (voisin->get_type_construction() == "Marche") {
             return false; 
         }
     }

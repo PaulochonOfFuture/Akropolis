@@ -1,9 +1,15 @@
 #include "Habitation.h"
 #include <vector>
 
-//Habitation::Habitation(int id, bool v) : Quartier(id, v) {
-//    this->id_chaine_mere = /* ? ? ? ?*/ ;
-//}
+
+Habitation::Habitation(int id, bool v) : Quartier(id, v) {
+    this->id_chaine_mere = 0 ;
+}
+
+Habitation::Habitation(int id, bool v) : Quartier(id, v) {
+    this->id_chaine_mere = /* ? ? ? ?*/ ;
+}
+
 
 Habitation::Habitation(const Habitation& q) : Quartier(q) {
     this->id_chaine_mere = q.id_chaine_mere;
@@ -16,6 +22,15 @@ Habitation& Habitation::operator=(const Habitation& q) {
     }
     return *this;
 }
+bool Habitation::habitation_voisine(std::vector<Construction*>& voisins) const {
+    for (Construction* voisin : voisins) {
+        if (voisin->get_type_construction() == "Habitation") {
+            return true; 
+        }
+    }
+    return false; 
+}
+
 
 /* je pense dans .h  on doit avoir bool habitation_voisine(std::vector<Construction>& voisins) const et dans UML aussi */
 /* il manque Habitation& operator= dans UML */

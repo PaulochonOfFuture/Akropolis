@@ -12,14 +12,14 @@ Caserne& Caserne::operator=(const Caserne& q) {
     return *this;
 }
 
-bool Caserne::est_valide(std::vector<Construction>& voisins) {
+bool Caserne::est_valide(std::vector<Construction*>& voisins) {
     if (voisins.size() < 6) {
         return true;
     }
     return false; 
 }
 
-bool Caserne::est_libre_3(std::vector<Construction>& voisins) {
+bool Caserne::est_libre_3(std::vector<Construction*>& voisins) {
     if (voisins.size() <= 3) {
         return true;
     }
