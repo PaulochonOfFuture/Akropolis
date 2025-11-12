@@ -9,7 +9,7 @@ public:
 
     Jardin& operator=(const Jardin& q);
 
-    bool est_valide(std::vector<Construction>& voisins);
-    bool lac(std::vector<Construction>& voisins);
+    bool est_valide(std::vector<Construction*>& voisins);
+    bool lac(std::vector<Construction*>& voisins);
 
 };
