@@ -1,4 +1,5 @@
 #include "Marche.h"
+#include "Place.h"
 #include <vector>
 
 Marche::Marche(int id, bool v) : Quartier(id, v) {}
@@ -13,12 +14,21 @@ Marche& Marche::operator=(const Marche& q) {
 }
 
 bool Marche::est_valide(std::vector<Construction*>& voisins) {
-    for (Construction& voisin : voisins) {
+    for (Construction* voisin : voisins) {
         if (voisin->get_type_construction() == "Marche") {
             return false; 
         }
     }
     return true; 
 }
-
-/*il manque pas une méthode pour la variante*/
+bool Marche::variante_place(std::vector<Construction*>& voisins) {
+    for (Construction* voisin : voisins) {
+        if (voisin != nullptr) {
+            Place* p = dynamic_cast<Place*>(voisin);
+            if (p != nullptr && p->getCouleur() == "Rouge") {
+                return true; 
+            }
+        }
+    }
+    return false;
+}

@@ -18,3 +18,6 @@ bool Temple::est_valide(std::vector<Construction*>& voisins) {
     }
     return true; 
 }
+bool Temple::variante_hauteur(int etage) {
+    return (etage >= 1);
+}
