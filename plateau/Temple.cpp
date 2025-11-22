@@ -3,14 +3,14 @@
 
 Temple::Temple(int id, bool v) : Quartier(id, v) {}
 
-Temple::Temple(const Temple& q) : Quartier(q) {}
+//Temple::Temple(const Temple& q) : Quartier(q) {}
 
-Temple& Temple::operator=(const Temple& q) {
+/*Temple& Temple::operator=(const Temple& q) {
     if (this != &q) {
         Quartier::operator=(q);
     }
     return *this;
-}
+}*/
 
 bool Temple::est_valide(std::vector<Construction*>& voisins) {
     if (voisins.size() < 6) {
@@ -20,4 +20,7 @@ bool Temple::est_valide(std::vector<Construction*>& voisins) {
 }
 bool Temple::variante_hauteur(int etage) {
     return (etage >= 1);
+}
+std::string Temple::get_type_construction() const {
+    return "Temple";
 }

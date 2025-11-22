@@ -3,14 +3,14 @@
 
 Caserne::Caserne(int id, bool v) : Quartier(id, v) {}
 
-Caserne::Caserne(const Caserne& q) : Quartier(q) {}
+//Caserne::Caserne(const Caserne& q) : Quartier(q) {}
 
-Caserne& Caserne::operator=(const Caserne& q) {
+/*Caserne& Caserne::operator=(const Caserne& q) {
     if (this != &q) {
         Quartier::operator=(q);
     }
     return *this;
-}
+}*/
 
 bool Caserne::est_valide(std::vector<Construction*>& voisins) {
     for (Construction* c : voisins) {
@@ -25,4 +25,7 @@ bool Caserne::est_libre_3(std::vector<Construction*>& voisins) {
         if (c == nullptr) libres++;
     }
     return (libres >= 3);
+}
+std::string Caserne::get_type_construction() const {
+    return "Caserne";
 }
