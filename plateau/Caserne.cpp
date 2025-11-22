@@ -13,15 +13,16 @@ Caserne& Caserne::operator=(const Caserne& q) {
 }
 
 bool Caserne::est_valide(std::vector<Construction*>& voisins) {
-    if (voisins.size() < 6) {
-        return true;
+    for (Construction* c : voisins) {
+        if (c == nullptr) return true; 
     }
-    return false; 
+    return false;
 }
 
 bool Caserne::est_libre_3(std::vector<Construction*>& voisins) {
-    if (voisins.size() <= 3) {
-        return true;
+    int libres = 0;
+    for (Construction* c : voisins) {
+        if (c == nullptr) libres++;
     }
-    return false;
+    return (libres >= 3);
 }

@@ -16,5 +16,3 @@ bool Jardin::est_valide(std::vector<Construction*>& voisins) {
     return true;
 }
 
-/*est valide ca sert a rien dans jardin*/
-/*on ne peut pas faire la methode lac car on n'a pas besoin que des voisin il faut le plateau ou la cité */
