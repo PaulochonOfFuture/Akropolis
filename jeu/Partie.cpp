@@ -68,7 +68,7 @@ void Partie::jouer() {
                     int x, y;
                     std::cout << "> Coordonnees (X Y) : ";
                     std::cin >> x >> y;
-                    j->placer_tuiles_temporairement(Coordonnee(x, y, 0), Coordonnee(x + 1, y, 0), Coordonnee(x, y + 1, 0), nullptr);
+                    j->placer_tuiles_temporairement(Coordonnee(x, y), Coordonnee(x + 1, y), Coordonnee(x, y + 1), nullptr);
                     j->afficher_cite();
                     std::cout << "> Action ? (tourner / changer / confirmer) : ";
                     std::cin >> input;
