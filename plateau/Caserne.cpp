@@ -1,4 +1,5 @@
 #include "Caserne.h"
+#include "Hexagone.h"
 #include <vector>
 
 Caserne::Caserne(int id, bool v) : Quartier(id, v) {}
@@ -12,17 +13,17 @@ Caserne::Caserne(int id, bool v) : Quartier(id, v) {}
     return *this;
 }*/
 
-bool Caserne::est_valide(std::vector<Construction*>& voisins) {
-    for (Construction* c : voisins) {
-        if (c == nullptr) return true; 
+bool Caserne::est_valide(std::vector<Hexagone*>& voisins) {
+    for (Hexagone* h : voisins) {
+        if (h == nullptr || h->get_est_vide()) return true;
     }
     return false;
 }
 
-bool Caserne::est_libre_3(std::vector<Construction*>& voisins) {
+bool Caserne::est_libre_3(std::vector<Hexagone*>& voisins) {
     int libres = 0;
-    for (Construction* c : voisins) {
-        if (c == nullptr) libres++;
+    for (Hexagone* h : voisins) {
+        if (h == nullptr || h->get_est_vide()) libres++;
     }
     return (libres >= 3);
 }

@@ -1,4 +1,5 @@
 #include "Habitation.h"
+#include "Hexagone.h"
 #include <vector>
 
 
@@ -17,13 +18,21 @@ Habitation& Habitation::operator=(const Habitation& q) {
     }
     return *this;
 }*/
-bool Habitation::habitation_voisine(std::vector<Construction*>& voisins) const {
-    for (Construction* voisin : voisins) {
-        if (voisin->get_type_construction() == "Habitation") {
-            return true; 
+
+bool Habitation::est_valide(std::vector<Hexagone*>& voisins) {
+    return true;
+}
+
+bool Habitation::habitation_voisine(std::vector<Hexagone*>& voisins) const {
+    for (Hexagone* voisin : voisins) {
+        if (voisin != nullptr && !voisin->get_est_vide()) {
+            Construction* c = voisin->get_constru();
+            if (c != nullptr && c->get_type_construction() == "Habitation") {
+                return true;
+            }
         }
     }
-    return false; 
+    return false;
 }
 std::string Habitation::get_type_construction() const {
     return "Habitation";

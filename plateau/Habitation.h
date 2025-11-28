@@ -1,5 +1,6 @@
 #pragma once
 #include "../abstract/Quartier.h"
+#include "Hexagone.h"
 #include <vector>
 
 class Habitation : public Quartier {
@@ -10,8 +11,9 @@ public:
     Habitation(int id, bool v);
     //Habitation(const Habitation& q);
     //Habitation& operator=(const Habitation& q);
-    bool habitation_voisine(std::vector<Construction*>& voisins) const;
+    bool habitation_voisine(std::vector<Hexagone*>& voisins) const;
     std::string get_type_construction() const override;
     int getChaineMere() const { return id_chaine_mere; }
     void setChaineMere(int id) { id_chaine_mere = id; }
+    bool est_valide(std::vector<Hexagone*>& voisins) override;
 };
