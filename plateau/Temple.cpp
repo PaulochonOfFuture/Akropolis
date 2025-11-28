@@ -1,4 +1,5 @@
 #include "Temple.h"
+#include "Hexagone.h"
 #include <vector>
 
 Temple::Temple(int id, bool v) : Quartier(id, v) {}
@@ -12,11 +13,13 @@ Temple::Temple(int id, bool v) : Quartier(id, v) {}
     return *this;
 }*/
 
-bool Temple::est_valide(std::vector<Construction*>& voisins) {
-    if (voisins.size() < 6) {
-        return false;
+bool Temple::est_valide(std::vector<Hexagone*>& voisins) {
+    for (Hexagone* h : voisins) {
+        if (h == nullptr || h->get_est_vide()) {
+            return false;
+        }
     }
-    return true; 
+    return true;
 }
 bool Temple::variante_hauteur(int etage) {
     return (etage >= 1);
