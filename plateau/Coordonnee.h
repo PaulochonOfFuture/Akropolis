@@ -13,13 +13,22 @@ public:
     int getX() const { return x; }
     int getY() const { return y; }
 
-    // On crée une relation d'ordre pour qu'une Coordonée puisse être utilisé comme clé dans la map de Cité (ARN):
+    // On crée une relation d'ordre pour qu'une Coordonée puisse être utilisée comme clé dans une map :
     bool operator<(const Coordonnee& other) const {
-        if (x < other.x) return true;
-        if (x > other.x) return false;
-        return y < other.y;
+        if (x < other.getX()) return true;
+        if (x > other.getX()) return false;
+        return y < other.getY();
     }
+    bool operator==(const Coordonnee& other) const{
+		return (x == other.getX()) && (y == other.getY());
+	}
 
-    // Les 6 coordonées voisines :
-    std::array<Coordonnee, 6> get_voisines() const;
+    // Renvoi les 6 coordonnées voisines :
+    std::vector<Coordonnee> get_voisines() const;
+
+    // Vérifie si une autre coordonée est sa voisine :
+    bool est_voisine(const Coordonnee& c) const;
 };
+
+// Vérifie si 3 coordonnées sont des voisines :
+bool trio_coordonnees_voisines(const Coordonnee& c1, const Coordonnee& c2, const Coordonnee& c3);

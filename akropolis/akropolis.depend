@@ -1,0 +1,99 @@
+# depslib dependency file v1.0
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\abstract\construction.cpp
+	"Construction.h"
+
+1763289322 c:\users\r\desktop\lo21-projet\akropolis\abstract\construction.h
+	<string>
+
+1764144060 source:c:\users\r\desktop\lo21-projet\akropolis\abstract\quartier.cpp
+	"Quartier.h"
+
+1764144060 c:\users\r\desktop\lo21-projet\akropolis\abstract\quartier.h
+	"Construction.h"
+	<vector>
+
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\exceptions\recouvrir.cpp
+	"Recouvrir.h"
+
+1763289322 c:\users\r\desktop\lo21-projet\akropolis\exceptions\recouvrir.h
+
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\carriere.cpp
+	"Carriere.h"
+
+1763289322 c:\users\r\desktop\lo21-projet\akropolis\plateau\carriere.h
+	"../abstract/Construction.h"
+	<string>
+
+1763923111 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\caserne.cpp
+	"Caserne.h"
+	<vector>
+
+1763923111 c:\users\r\desktop\lo21-projet\akropolis\plateau\caserne.h
+	"../abstract/Quartier.h"
+	<vector>
+
+1764144060 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\chainehabitation.cpp
+	"ChaineHabitation.h"
+
+1764144060 c:\users\r\desktop\lo21-projet\akropolis\plateau\chainehabitation.h
+	<vector>
+	"Habitation.h"
+
+1764144060 c:\users\r\desktop\lo21-projet\akropolis\plateau\habitation.h
+	"../abstract/Quartier.h"
+	<vector>
+
+1764147918 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\coordonnee.cpp
+	"Coordonnee.h"
+
+1764154989 c:\users\r\desktop\lo21-projet\akropolis\plateau\coordonnee.h
+	<vector>
+
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\hexagone.cpp
+	"Hexagone.h"
+
+1764155039 c:\users\r\desktop\lo21-projet\akropolis\plateau\hexagone.h
+	"../abstract/Construction.h"
+
+1764144060 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\jardin.cpp
+	"Jardin.h"
+	<vector>
+
+1764144060 c:\users\r\desktop\lo21-projet\akropolis\plateau\jardin.h
+	"../abstract/Quartier.h"
+	<vector>
+
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\place.cpp
+	"Place.h"
+
+1763289322 c:\users\r\desktop\lo21-projet\akropolis\plateau\place.h
+	"../abstract/Construction.h"
+
+1763923111 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\temple.cpp
+	"Temple.h"
+	<vector>
+
+1763923111 c:\users\r\desktop\lo21-projet\akropolis\plateau\temple.h
+	"../abstract/Quartier.h"
+	<vector>
+
+1764145281 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\cite.cpp
+	"Cite.h"
+
+1764143522 c:\users\r\desktop\lo21-projet\akropolis\plateau\cite.h
+	"Hexagone.h"
+	"Tuile.h"
+	"Coordonnee.h"
+	<map>
+	<memory>
+
+1764143522 c:\users\r\desktop\lo21-projet\akropolis\plateau\tuile.h
+	"../abstract/Construction.h"
+
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\plateau\tuile.cpp
+	"Tuile.h"
+
+1763289322 source:c:\users\r\desktop\lo21-projet\akropolis\akropolis\akropolis.cpp
+	<iostream>
+	"../plateau/Carriere.h"
+

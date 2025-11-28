@@ -26,6 +26,7 @@ public:
         return longueur;
     }
 
+    int set_longueur(int l)  { longueur = l; }
     // Constructeurs
     Chaine_habitation(std::vector<Habitation*> habitations_, int id_chaine_, int longueur_)
         : habitations(std::move(habitations_)),
@@ -46,7 +47,9 @@ public:
     Chaine_habitation& operator+=(Habitation* h);
 
     // Comparaison (relation d'ordre)
-    bool operator>(const Chaine_habitation& c2);
+    bool operator>(const Chaine_habitation& c2) const;
+    bool operator>(int l) const;
+
 };
 
 // Initialisation du compteur d'id

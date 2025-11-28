@@ -1,31 +1,89 @@
-﻿  Construction.cpp
-  Quartier.cpp
-  Recouvrir.cpp
-  Joueur.cpp
+﻿  Joueur.cpp
+C:\Users\PC\Akropolis\plateau\Tuile.h(13,7): error C2011: 'Tuile' : redéfinition du type 'class'
+  (compiler le fichier source '../jeu/Joueur.cpp')
+      C:\Users\PC\Akropolis\plateau\Tuile.h(4,7):
+      voir la déclaration de 'Tuile'
+  
   Partie.cpp
+C:\Users\PC\Akropolis\plateau\Tuile.h(13,7): error C2011: 'Tuile' : redéfinition du type 'class'
+  (compiler le fichier source '../jeu/Partie.cpp')
+      C:\Users\PC\Akropolis\plateau\Tuile.h(4,7):
+      voir la déclaration de 'Tuile'
+  
+C:\Users\PC\Akropolis\plateau\Chantier.h(26,7): error C2011: 'Chantier' : redéfinition du type 'class'
+  (compiler le fichier source '../jeu/Partie.cpp')
+      C:\Users\PC\Akropolis\plateau\Chantier.h(7,7):
+      voir la déclaration de 'Chantier'
+  
   Carriere.cpp
   Caserne.cpp
+C:\Users\PC\Akropolis\plateau\Caserne.cpp(15,15): error C2511: 'bool Caserne::est_valide(std::vector<Construction *,std::allocator<Construction *>> &)' : impossible de trouver la fonction membre surchargée dans 'Caserne'
+      C:\Users\PC\Akropolis\plateau\Caserne.h(5,7):
+      voir la déclaration de 'Caserne'
+  
+C:\Users\PC\Akropolis\plateau\Caserne.cpp(22,15): error C2511: 'bool Caserne::est_libre_3(std::vector<Construction *,std::allocator<Construction *>> &)' : impossible de trouver la fonction membre surchargée dans 'Caserne'
+      C:\Users\PC\Akropolis\plateau\Caserne.h(5,7):
+      voir la déclaration de 'Caserne'
+  
   ChaineHabitation.cpp
   Chantier.cpp
-  Cite.cpp
-  Coordonnee.cpp
-  Habitation.cpp
-  Hexagone.cpp
-C:\Users\PC\Akropolis\plateau\Habitation.cpp(5,41): error C2059: erreur de syntaxe : ';'
-  Jardin.cpp
-C:\Users\PC\Akropolis\plateau\Jardin.cpp(15,14): error C2511: 'bool Jardin::est_valide(std::vector<Construction,std::allocator<Construction>> &)' : impossible de trouver la fonction membre surchargée dans 'Jardin'
-      C:\Users\PC\Akropolis\plateau\Jardin.h(5,7):
-      voir la déclaration de 'Jardin'
+C:\Users\PC\Akropolis\plateau\Tuile.h(13,7): error C2011: 'Tuile' : redéfinition du type 'class'
+  (compiler le fichier source '../plateau/Chantier.cpp')
+      C:\Users\PC\Akropolis\plateau\Tuile.h(4,7):
+      voir la déclaration de 'Tuile'
   
-  Marche.cpp
-C:\Users\PC\Akropolis\plateau\Marche.cpp(17,20): error C2248: 'Construction::get_type_construction' : impossible d'accéder à protected membre déclaré(e) dans la classe 'Construction'
+C:\Users\PC\Akropolis\plateau\Chantier.h(26,7): error C2011: 'Chantier' : redéfinition du type 'class'
+  (compiler le fichier source '../plateau/Chantier.cpp')
+      C:\Users\PC\Akropolis\plateau\Chantier.h(7,7):
+      voir la déclaration de 'Chantier'
+  
+  Cite.cpp
+C:\Users\PC\Akropolis\plateau\Tuile.h(13,7): error C2011: 'Tuile' : redéfinition du type 'class'
+  (compiler le fichier source '../plateau/Cite.cpp')
+      C:\Users\PC\Akropolis\plateau\Tuile.h(4,7):
+      voir la déclaration de 'Tuile'
+  
+C:\Users\PC\Akropolis\plateau\Cite.cpp(7,12): error C2761: 'void Cite::maj_cite(Tuile *,Coordonnee &)' : la redéclaration du membre n'est pas autorisée
+C:\Users\PC\Akropolis\plateau\Cite.cpp(8,12): error C2761: 'void Cite::set_tuile_temporaire(Tuile *)' : la redéclaration du membre n'est pas autorisée
+C:\Users\PC\Akropolis\plateau\Cite.cpp(9,12): error C2761: 'void Cite::set_position_temporaire(Coordonnee &)' : la redéclaration du membre n'est pas autorisée
+C:\Users\PC\Akropolis\plateau\Cite.cpp(12,1): error C2059: erreur de syntaxe : '}'
+  Habitation.cpp
+C:\Users\PC\Akropolis\plateau\Habitation.cpp(22,21): error C2248: 'Construction::get_type_construction' : impossible d'accéder à protected membre déclaré(e) dans la classe 'Construction'
       C:\Users\PC\Akropolis\abstract\Construction.h(7,22):
       voir la déclaration de 'Construction::get_type_construction'
       C:\Users\PC\Akropolis\abstract\Construction.h(4,7):
       voir la déclaration de 'Construction'
   
+  Hexagone.cpp
+  Jardin.cpp
+  Marche.cpp
+C:\Users\PC\Akropolis\plateau\Marche.cpp(15,14): error C2511: 'bool Marche::est_valide(std::vector<Construction *,std::allocator<Construction *>> &)' : impossible de trouver la fonction membre surchargée dans 'Marche'
+      C:\Users\PC\Akropolis\plateau\Marche.h(4,7):
+      voir la déclaration de 'Marche'
+  
+C:\Users\PC\Akropolis\plateau\Marche.cpp(16,40): error C2440: 'initialisation' : impossible de convertir de '_Ty' en 'Construction &'
+C:\Users\PC\Akropolis\plateau\Marche.cpp(16,40): error C2440:         with
+C:\Users\PC\Akropolis\plateau\Marche.cpp(16,40): error C2440:         [
+C:\Users\PC\Akropolis\plateau\Marche.cpp(16,40): error C2440:             _Ty=Construction *
+C:\Users\PC\Akropolis\plateau\Marche.cpp(16,40): error C2440:         ]
+C:\Users\PC\Akropolis\plateau\Marche.cpp(17,13): error C2819: le type 'Construction' n'a pas d'opérateur 'operator ->' de membre surchargé
+      C:\Users\PC\Akropolis\abstract\Construction.h(4,7):
+      voir la déclaration de 'Construction'
+      C:\Users\PC\Akropolis\plateau\Marche.cpp(17,13):
+      voulez-vous utiliser '.' à la place ?
+  
+C:\Users\PC\Akropolis\plateau\Marche.cpp(17,19): error C2232: '->Construction::get_type_construction' : opérande gauche avec type 'class', utilisez '.'
   Place.cpp
   Temple.cpp
+C:\Users\PC\Akropolis\plateau\Temple.cpp(15,14): error C2511: 'bool Temple::est_valide(std::vector<Construction *,std::allocator<Construction *>> &)' : impossible de trouver la fonction membre surchargée dans 'Temple'
+      C:\Users\PC\Akropolis\plateau\Temple.h(5,7):
+      voir la déclaration de 'Temple'
+  
   Tuile.cpp
+C:\Users\PC\Akropolis\plateau\Tuile.h(13,7): error C2011: 'Tuile' : redéfinition du type 'class'
+  (compiler le fichier source '../plateau/Tuile.cpp')
+      C:\Users\PC\Akropolis\plateau\Tuile.h(4,7):
+      voir la déclaration de 'Tuile'
+  
   akropolis.cpp
   Génération de code en cours...
