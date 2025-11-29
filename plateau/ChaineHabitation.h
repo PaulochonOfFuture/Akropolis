@@ -26,7 +26,7 @@ public:
         return longueur;
     }
 
-    int set_longueur(int l)  { longueur = l; }
+    int set_longueur(int l)  { return longueur = l; }
     // Constructeurs
     Chaine_habitation(std::vector<Habitation*> habitations_, int id_chaine_, int longueur_)
         : habitations(std::move(habitations_)),
