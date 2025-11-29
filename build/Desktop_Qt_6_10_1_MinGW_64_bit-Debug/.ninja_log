@@ -1,0 +1,24 @@
+# ninja log v6
+9	960	7861187173908608	akropolis_app_autogen/timestamp	29b02c60be12f21e
+9	960	7861187173908608	akropolis_app_autogen/mocs_compilation.cpp	29b02c60be12f21e
+9	960	7861187173908608	C:/Users/chtio/Documents/akropolis/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/akropolis_app_autogen/timestamp	29b02c60be12f21e
+995	2864	7861187175447031	CMakeFiles/akropolis_app.dir/plateau/Chantier.cpp.obj	8885463c15d04799
+9	960	7861187173908608	C:/Users/chtio/Documents/akropolis/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/akropolis_app_autogen/mocs_compilation.cpp	29b02c60be12f21e
+969	6087	7861187175186973	CMakeFiles/akropolis_app.dir/akropolis_app_autogen/mocs_compilation.cpp.obj	814e9581257caaef
+975	6101	7861187175236981	CMakeFiles/akropolis_app.dir/main.cpp.obj	2465b0269972d01d
+73	1152	7861187839851565	CMakeFiles/akropolis_app.dir/plateau/Hexagone.cpp.obj	5d26fc993f325482
+79	1159	7861187839909366	CMakeFiles/akropolis_app.dir/plateau/Tuile.cpp.obj	b2742a312c404b04
+1153	2095	7861187850639765	CMakeFiles/akropolis_app.dir/plateau/Coordonnee.cpp.obj	14b727e5db1414c0
+1159	2293	7861187850717786	CMakeFiles/akropolis_app.dir/plateau/Jardin.cpp.obj	ff4df8fffdae2951
+61	314	7861195226730491	akropolis_app_autogen/timestamp	29b02c60be12f21e
+61	314	7861195226730491	akropolis_app_autogen/mocs_compilation.cpp	29b02c60be12f21e
+61	314	7861195226730491	C:/Users/chtio/Documents/akropolis/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/akropolis_app_autogen/timestamp	29b02c60be12f21e
+61	314	7861195226730491	C:/Users/chtio/Documents/akropolis/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/akropolis_app_autogen/mocs_compilation.cpp	29b02c60be12f21e
+342	1754	7861195229553529	CMakeFiles/akropolis_app.dir/plateau/Temple.cpp.obj	cb498e9049b8830e
+336	1919	7861195229495863	CMakeFiles/akropolis_app.dir/plateau/Caserne.cpp.obj	5e6b930d5a71be95
+1920	2943	7861195245331408	CMakeFiles/akropolis_app.dir/plateau/Habitation.cpp.obj	8740ac5f673f0837
+40	256	7861201098614069	akropolis_app_autogen/timestamp	29b02c60be12f21e
+40	256	7861201098614069	akropolis_app_autogen/mocs_compilation.cpp	29b02c60be12f21e
+40	256	7861201098614069	C:/Users/chtio/Documents/akropolis/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/akropolis_app_autogen/timestamp	29b02c60be12f21e
+40	256	7861201098614069	C:/Users/chtio/Documents/akropolis/build/Desktop_Qt_6_10_1_MinGW_64_bit-Debug/akropolis_app_autogen/mocs_compilation.cpp	29b02c60be12f21e
+280	1545	7861201101013724	CMakeFiles/akropolis_app.dir/plateau/Place.cpp.obj	1728e71b2fa7907e

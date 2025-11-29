@@ -24,7 +24,7 @@ public:
             }
         }
     }
-    std::vector<Habitation*>get_hab_voisins(const Coordonnee& c) const;
+    std::vector<Hexagone*>get_hab_voisins(const Coordonnee& c) const;
     std::map<int, Chaine_habitation>& get_habitations() { return habitations; }
     void afficher_cite();
     Hexagone& recherche_hexagone(const Coordonnee& c) const;

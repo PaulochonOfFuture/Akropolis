@@ -12,7 +12,6 @@ private:
     std::string nom;
     const int id_joueur;
     const std::string nom;
-    int nb_pierres;
     int score;
     Cite* cite;
 

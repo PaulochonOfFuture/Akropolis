@@ -68,7 +68,7 @@ void Joueur::placer_tuiles_temporairement(Coordonnee& c1, Coordonnee& c2, Coordo
 
 Tuile* Joueur::choisir_tuile(int rang, Chantier& chantier) {
 
-	if (chantier.calculer_cout_tuile_i(rang) > nb_pierres)
+	if (chantier.calculer_cout(rang) > nb_pierres)
 		throw JoueurException("Cette tuile est trop chère.");
 	cite->set_tuile_temporaire(chantier.get_tuile(rang));
 }

@@ -74,7 +74,7 @@ void Cite::set_position_temporaire(std::vector<Coordonnee>& c){
 
 	position_temporaire = c;
 }
-std::vector<Habitation*> Cite::get_hab_voisins(const Coordonnee& c) const {
+std::vector<Hexagone*> Cite::get_hab_voisins(const Coordonnee& c) const {
 	std::vector<Hexagone*> hex_voisins;
 	const auto& voisins = c.get_voisines();
 
