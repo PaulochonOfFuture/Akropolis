@@ -19,6 +19,7 @@
 *.sdf
 *.opensdf
 *.VC.db
+*.enc
 Debug/
 Release/
 x64/Debug/
